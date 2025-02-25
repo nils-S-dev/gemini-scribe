@@ -1,0 +1,55 @@
+{
+  "name": "gemini-scribe",
+  "displayName": "gemini-scribe",
+  "description": "extension providing actions to call Gemini in order to use it for automatic code documentation",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.97.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "gemini-scribe.addDocumentation",
+        "title": "Gemini Scribe: Add Documentation"
+      }
+    ],
+    "configuration": {
+      "title": "Gemini Scribe: Configuration",
+      "properties": {
+          "gemini-scribe.apiKey": {
+              "type": "string",
+              "title": "API Key",
+              "description": "You can get one this way: https://ai.google.dev/gemini-api/docs/quickstart?hl=de&lang=node",
+              "default": ""
+          }
+      }
+  }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.10",
+    "@types/node": "20.x",
+    "@types/vscode": "^1.97.0",
+    "@typescript-eslint/eslint-plugin": "^8.22.0",
+    "@typescript-eslint/parser": "^8.22.0",
+    "@vscode/test-cli": "^0.0.10",
+    "@vscode/test-electron": "^2.4.1",
+    "eslint": "^9.19.0",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0"
+  }
+}
