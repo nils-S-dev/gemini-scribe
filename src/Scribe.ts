@@ -27,7 +27,6 @@ export class Scribe {
 				const ai = new GoogleGenerativeAI(apiKey);
 				const gemini = ai.getGenerativeModel({ model: "gemini-1.5-flash" });
 		
-				// @TODO rewrite to make it appropirate for a single selection
 				const code = 
 					Array.from(
 						{ length: selection.end.line - selection.start.line + 1 }, 

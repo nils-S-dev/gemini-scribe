@@ -3,6 +3,7 @@
   "displayName": "gemini-scribe",
   "description": "extension providing actions to call Gemini in order to use it for automatic code documentation",
   "version": "0.0.1",
+  "icon": "images/logo.png",
   "engines": {
     "vscode": "^1.97.0"
   },
