@@ -126,6 +126,6 @@ Thanks A LOT to othneildrew for [this amazing README.md template](https://github
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [TypeScript]: https://shields.io/badge/TypeScript-3178C6?logo=TypeScript&logoColor=FFF&style=flat-square
-[TypeScript-url]: https://code.visualstudio.com/
+[TypeScript-url]: https://www.typescriptlang.org/
 [VSCode]: https://img.shields.io/badge/Visual%20Studio%20Code-007ACC?logo=visualstudiocode&logoColor=fff&style=plastic
-[VSCode-url]: https://nestjs.com/
+[VSCode-url]: https://code.visualstudio.com/
