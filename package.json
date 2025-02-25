@@ -10,6 +10,30 @@
   "categories": [
     "Other"
   ],
+  "keywords": [
+    "vscode",
+    "extension",
+    "documentation",
+    "code documentation",
+    "auto-documentation",
+    "generate docs",
+    "comments",
+    "docstrings",
+    "source code",
+    "code analysis",
+    "ai",
+    "artificial intelligence",
+    "gemini api",
+    "google gemini",
+    "llm",
+    "large language model",
+    "any language",
+    "automation",
+    "developer tools",
+    "productivity",
+    "document code",
+    "generate comments"
+  ],
   "activationEvents": [],
   "main": "./out/extension.js",
   "contributes": {
