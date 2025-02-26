@@ -1,6 +1,6 @@
 {
   "name": "gemini-scribe",
-  "displayName": "gemini-scribe",
+  "displayName": "Gemini Scribe ✒️",
   "description": "extension providing actions to call Gemini in order to use it for automatic code documentation",
   "version": "1.0.0",
   "icon": "images/logo.png",
